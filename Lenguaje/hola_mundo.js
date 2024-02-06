@@ -46,3 +46,8 @@ parrafoDos.textContent = "Este cambio va a verse en el parrafo dos";
 let parrafoTres = document.querySelector(".parrafos");
 parrafoTres.textContent = "Este cambio se muestra en el tres"
 
+let parrafos = document.querySelectorAll("p");
+// a funcao query selector all modifica uma lista, nesse caso seleciona todos os parragrafos.
+for (let index = 0; index < parragos.length; index++) {
+  parrafos[index].textContent = "cargando";
+}
