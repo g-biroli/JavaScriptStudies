@@ -52,6 +52,13 @@ for (let index = 0; index < parragos.length; index++) {
   parrafos[index].textContent = "cargando"; 
 }
 
-let inputOperando1;
-let inputOperando2;
-let inputOperando3;
+let inputOperando1 = document.querySelector("#input-op1");
+let inputOperando2 = document.querySelector("#input-op2") ;
+let inputOperando3 = document.querySelector("#boton-operar");
+
+botonOperar.addEventListerener("click", () => {
+  // lo que quiero que pase cuando se pulse el boton
+  let suma = Number(inputOperando1.value) + Number(inputOperando2.value);
+  parrafoTres.textContent = suma;
+});
+
