@@ -11,7 +11,9 @@ boton.addEventListener("click", () => {
         listaTrabajadores.innerHTML += `<li class='animate__animated animate__zoomInDown list-group-item'> ${inputNombre.value} ${inputApellido.value}</li>`;
         inputApellido.value = "";   
         inputNombre.value = ""; 
-        inputCorreo.value = "";    
+        inputCorreo.value = ""; 
+    
+         
     } else {
         alert ("no se puede anadir")
     } 
