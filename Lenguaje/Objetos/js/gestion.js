@@ -1,0 +1,1 @@
+let Producto = new Producto("Iphone", 900, "Apple", "Smartphone");
