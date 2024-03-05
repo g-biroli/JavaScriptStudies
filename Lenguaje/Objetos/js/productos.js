@@ -7,12 +7,14 @@ class Producto {
     precio;         //atributos
     marca;
     categoria;
+    imagen;
 
-    constructor(nombre, precio, marca, categoria) {     //criando constructor em js
+    constructor(nombre, precio, marca, categoria, imagen) {     //criando constructor em js
         this.nombre = nombre;
         this.precio = precio;
         this.marca = marca;
         this.categoria = categoria;
+        this.imagen = imagen;
     }
 
     MostrarDatos() {       //metodo criado, a partir de agora eu crio a logica do que eu quero. Criacao da logica para o meu objetivo, nesse caso o objetivo é apenas mostrar dado, simples
@@ -24,7 +26,10 @@ class Producto {
 
     getNombre (){
         return this.nombre;
+    }
 
+    set setNombre(nombre){
+        this.nombre = nombre;
     }
 
 
