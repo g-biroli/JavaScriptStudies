@@ -13,7 +13,8 @@ Padroes para usar para editar uma div
     flex-direction: column;     DEIXAR A DIV COM A SEQUENCIA EM BAIXO, NAO AO LADO (USADO EM PAGINA DE LOGIN)
 
 
-
+    LINK IMAGENS PARA PROJETOS ANIMADOS E TUDO
+    https://storyset.com/
 
 
 
@@ -52,4 +53,11 @@ Padroes para usar para editar uma div
     margin: 25px;
     border: none;
     border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #0f8;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
 }
