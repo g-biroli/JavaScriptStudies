@@ -61,3 +61,18 @@ Padroes para usar para editar uma div
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052;
 }
+
+@media only screen and (max-width: 950px){      Configuracao do zoom da pagina (funcionalidade para pc)
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){      Funcionalidade para celular (o site seguir para baixo)
+    .main-login{
+        flex-direction: column ;
+    }
+    .left-login > h1{
+        display: none;
+    }
+}
