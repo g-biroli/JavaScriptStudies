@@ -5,8 +5,9 @@ Padroes para usar para editar uma div
     width: 100vw;              TAMANHO
     height: 100vh;
     background: #201b2c;       COR DE FUNDO
-    display: flex;          
+    display: flex;             CONFIGURACAO PADRAO EM UMA DIV
     justify-content: center ;
     align-items: center;       CENTRALIZACAO
     border-radius: 20px;       Tirar as quinas do card login, deixar mais novo
     box-shadow: 0px 10px 40px #00000056;    SOMBRA DA DIV (SE USA EM BOX DE LOGIN)
+    flex-direction: column;     DEIXAR A DIV COM A SEQUENCIA EM BAIXO, NAO AO LADO (USADO EM PAGINA DE LOGIN)
