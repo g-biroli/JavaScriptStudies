@@ -76,3 +76,57 @@ Padroes para usar para editar uma div
         display: none;
     }
 }
+
+---------------------
+
+
+<div class="row">
+        <div class="col-7 m-auto">
+       <input
+        placeholder="introduce tu nombre"
+        class="form-control"
+        id="input-nombre"/> 
+
+        <input
+        placeholder="introduce tu apellido"
+        class="form-control"
+        id="input-apellido"/>
+
+        <input
+        placeholder="introduce tu correo"
+        class="form-control"
+        id="input-correo"/>
+
+        <br>
+        <br>
+        <br>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>¿A qué departamento pertenece?</option>
+            <option value="1">IT</option>
+            <option value="2">Marketing</option>
+            <option value="3">Ventas</option>
+            <option value="4">Administración</option>
+          </select>
+
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+            <label class="form-check-label" for="flexCheckIndeterminate">
+                Estoy de acuerdo con los cambios!
+            </label>
+          </div>
+   
+<br>
+        <button
+     class="btn btn-primary"
+      id="boton-agregar"
+      >Agregar</button>
+      
+    <ul
+    id="lista-trabajadores"
+    class="list-group">
+    </ul>
+    </div>
+    <div class="col-5">
+        <h2>Lista Trabajadores</h2>
+
+    </div>
