@@ -161,7 +161,15 @@ body * {
 }
 
 .left-cadastro-image {
-    width: 35vw;
+    width: vw;
+}
+
+.left-cadastro > h1 {
+    width: 50vw;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .btn-concluir {
@@ -180,7 +188,7 @@ body * {
 }
 
 .right-cadastro {
-    width: 40vw;
+    width: 80vw;
     height: 100vh;
     display: flex;
     justify-content: center ;
@@ -230,13 +238,13 @@ body * {
     color: #a8a7ac;
 }
 
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 650px){
     .card-cadastro{
         width: 85%;
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 450px){
     .main-cadastro{
         flex-direction: column ;
     }
