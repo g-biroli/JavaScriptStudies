@@ -16,16 +16,13 @@
 </head>
 <body>
 
-    <main class="container m-4"></main>
-    <h1>Inscrição</h1> 
-    
     <div class="main-cadastro">
         <div class="left-cadastro">
             <h1>Cadastre se agora <br> E entre para nosso time</h1>
-            <img src="astronauta.svg" class="left-login-image" alt="Astronauta">
+            <img src="astronauta.svg" class="left-cadastro-image" alt="Astronauta">
         </div>    
-        <div class="right-login">
-            <div class="card-login">
+        <div class="right-cadastro">
+            <div class="card-cadastro">
                 <h1>Cadastre se Aqui</h1>
                 <div class="textfield" id="cadastroNome">
                     <label for="nome">Insira seu nome</label>
@@ -47,6 +44,19 @@
                     <label for="repita-senha">Insira a senha novamente</label>
                     <input type="password" name="senha" placeholder="Senha"> 
                 </div>
+                <select class="form-select" id="departamento" aria-label="Default select example">
+                    <option selected>Como você nos descobriu?</option>
+                    <option value="1">Redes Sociais</option>
+                    <option value="2">Internet</option>
+                    <option value="3">Recomendação</option>
+                    <option value="4">Outros</option>
+                  </select>
+                  <div class="form-check" id="check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                        Estou ciente que meu dados serão de conhecimento da empresa.
+                    </label>
+                  </div>
                 <button class="btn-concluir">Concluir</button>
             </div>
         </div>
