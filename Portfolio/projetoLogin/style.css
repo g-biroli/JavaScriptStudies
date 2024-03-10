@@ -238,13 +238,13 @@ body * {
     color: #a8a7ac;
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 950px){
     .card-cadastro{
         width: 85%;
     }
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 600px){
     .main-cadastro{
         flex-direction: column ;
     }
