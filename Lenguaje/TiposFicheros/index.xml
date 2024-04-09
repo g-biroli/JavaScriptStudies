@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE asignatura SYSTEM "./validacion.dtd">
 <asignatura>
     <titulo> Lenguaje de marcas </titulo>
     <tema titulo="XML">
         <clases>
-            <clase titulos="Introduccion">Introduccion a los lenguajes XML</clase>
+            <clase titulo="Introduccion">Introduccion a los lenguajes XML</clase>
             <clase titulo="Estructura">Estructura de un fichero XML</clase>
             <clase titulo="Usos">Usos que tienen los ficheros XML</clase>
         </clases>
     </tema>
     <tema titulo="HTML">
         <clases>
-            <clase titulos="Introduccion">Introduccion a HTMLL</clase>
+            <clase titulo="Introduccion">Introduccion a HTMLL</clase>
             <clase titulo="Etiquetas">Definicion y uso de cada una de las etiquetas</clase>
             <clase titulo="CSS">Usos de CSS sobre HTML</clase>
         </clases>
     </tema>
     <tema titulo="Dinasmismo">
         <clases>
-            <clase titulos="Introduccion">Introduccion a JS</clase>
+            <clase titulo="Introduccion">Introduccion a JS</clase>
             <clase titulo="DOM">Definicion y uso de DOM</clase>
             <clase titulo="Json">Usos que tienen los ficheros XML</clase>
         </clases>
