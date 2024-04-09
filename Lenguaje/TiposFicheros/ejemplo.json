@@ -1,0 +1,18 @@
+{
+    "Alumnos": [
+    {
+        "Alumno": {
+            "numExpediente": 1,
+            "nombre": "Nombre1",
+            "apellido": "Apellido1"
+        }
+    },
+    {
+        "Alumno": {
+            "numExpediente": 2,
+            "nombre": "Nombre2",
+            "apellido": "Apellido2"
+        }
+    }
+  ]
+}
