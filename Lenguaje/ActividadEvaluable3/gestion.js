@@ -1,43 +1,35 @@
-var produtos = [
-    { nome: 'Smartphone', preco: 1200, categoria: 'eletronicos', marca: 'Marca A' },
-    { nome: 'Camiseta', preco: 25, categoria: 'roupas', marca: 'Marca B' },
-    { nome: 'Fone de Ouvido', preco: 50, categoria: 'eletronicos', marca: 'Marca C' },
-    { nome: 'Bolsa', preco: 80, categoria: 'acessorios', marca: 'Marca A' },
-    // Adicione mais produtos conforme necessário
-];
 
-// Funcion para filtrar los productos
+// Función para filtrar los productos
 function filtrarProductos() {
-    var precoMinimo = parseFloat(document.getElementById('preco-minimo').value);
+    var precioMinimo = parseFloat(document.getElementById('preco-minimo').value);
     var categoria = document.getElementById('categoria').value;
     var marca = document.getElementById('marca').value.toLowerCase();
 
-    var productosFiltrados = produtos.filter(function(produto) {
-        return (!precoMinimo || produto.preco >= precoMinimo) &&
-               (!categoria || produto.categoria === categoria) &&
-               (!marca || produto.marca.toLowerCase().includes(marca));
+    var productosFiltrados = productos.filter(function(producto) {
+        return (!precioMinimo || producto.precio >= precioMinimo) &&
+               (!categoria || producto.categoria === categoria) &&
+               (!marca || producto.marca.toLowerCase().includes(marca));
     });
 
-    exibirProdutos(productosFiltrados);
+    mostrarProductos(productosFiltrados);
 }
 
-// Função para exibir os produtos filtrados
-function exibirProdutos(produtos) {
-    var listaProdutos = document.getElementById('lista-produtos');
-    listaProdutos.innerHTML = ''; // Limpa a lista antes de adicionar os produtos
+function mostrarProductos(productos) {
+    var listaProductos = document.getElementById('lista-produtos');
+    listaProductos.innerHTML = ''; // Limpia la lista antes de agregar los productos
 
-    produtos.forEach(function(produto) {
-        var produtoDiv = document.createElement('div');
-        produtoDiv.classList.add('produto');
-        produtoDiv.innerHTML = '<strong>' + produto.nome + '</strong><br>' +
-                               'Preço: R$ ' + produto.preco.toFixed(2) + '<br>' +
-                               'Categoria: ' + produto.categoria + '<br>' +
-                               'Marca: ' + produto.marca;
-        listaProdutos.appendChild(produtoDiv);
+    productos.forEach(function(producto) {
+        var productoDiv = document.createElement('div');
+        productoDiv.classList.add('producto');
+        productoDiv.innerHTML = '<strong>' + producto.nombre + '</strong><br>' +
+                               'Precio: $' + producto.precio.toFixed(2) + '<br>' +
+                               'Categoría: ' + producto.categoria + '<br>' +
+                               'Marca: ' + producto.marca;
+                               '<img src="' + producto.imagem + '" alt="' + producto.nome + '">';
+        listaProductos.appendChild(productoDiv);
     });
 }
 
-// Exibir todos os produtos ao carregar a página
 window.onload = function() {
-    exibirProdutos(produtos);
+    mostrarProductos(productos);
 };
