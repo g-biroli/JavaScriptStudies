@@ -30,6 +30,24 @@ function mostrarProductos(productos) {
     });
 }
 
-window.onload = function() {
-    mostrarProductos(productos);
-};
+    window.onload = function() {
+        mostrarProductos(productos);
+    };
+    
+    fetch('productos.json')
+        .then(response => response.json())
+        .then(productos => {
+        const listaProductos = document.getElementById('lista-productos');
+        productos.forEach(producto => {
+        const productoDiv = document.createElement('div');
+        productoDiv.innerHTML = `
+            <strong>${producto.nombre}</strong><br>
+            Precio: $${producto.precio.toFixed(2)}<br>
+            Categoría: ${producto.categoria}<br>
+            Marca: ${producto.marca}<br>
+            <img src="${producto.imagen}" alt="${producto.nombre}">
+        `;
+        listaProductos.appendChild(productoDiv);
+    });
+})
+.catch(error => console.error('Error al cargar los productos:', error));
