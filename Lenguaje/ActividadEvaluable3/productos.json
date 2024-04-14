@@ -5,63 +5,63 @@
             "precio": 25,
             "marca": "Universidad Europea",
             "categoria": "ropa",
-            "imagem": "https://tienda.universidadeuropea.com/collections/destacados/products/sudadera-rolly-2"
+            "imagem": "img/sudadera.webp"
         },
         {
             "nombre": "Gorra",
             "precio": 22,
             "marca": "Adidas",
             "categoria": "Adidas",
-            "imagem": "https://tienda.universidadeuropea.com/collections/destacados/products/gorra"
+            "imagem": "img/gorra.jpg"
         },
         {
             "nombre": "Bolsa",
             "precio": 6,
             "marca": "Universidad Europea",
             "categoria": "acessorios",
-            "imagem": "https://tienda.universidadeuropea.com/collections/destacados/products/bolsa-2"
+            "imagem": "img/bolsa.webp"
         },
         {
             "nombre": "Pantalón",
             "precio": 18,
             "marca": "Universidad Europea",
             "categoria": "ropa",
-            "imagem": "https://tienda.universidadeuropea.com/collections/destacados/products/pantalones"
+            "imagem": "img/pantalon.webp"
         },
         {
             "nombre": "Camsieta Técnica",
             "precio": 9,
             "marca": "Universidad Europea",
             "categoria": "ropa",
-            "imagem": "https://tienda.universidadeuropea.com/collections/destacados/products/camiseta-tecnica"
+            "imagem": "img/camisetaTecina.webp"
         },
         {
             "nombre": "Cortavientos",
             "precio": 69,
             "marca": "Adidas",
             "categoria": "Adidas",
-            "imagem": "https://tienda.universidadeuropea.com/collections/adidas/products/cortavientos"
+            "imagem": "img/cortaVientos.webp"
         },
         {
             "nombre": "Pantalón Corto",
             "precio": 35,
             "marca": "Adidas",
             "categoria": "Adidas",
-            "imagem": "https://tienda.universidadeuropea.com/collections/adidas/products/pantalon-corto-negro-adidas"
+            "imagem": "img/pantalonCorto.webp"
         },
         {
             "nombre": "Mochila",
             "precio": 8,
             "marca": "Universidad Europea",
             "categoria": "acessorios",
-            "imagem": "https://tienda.universidadeuropea.com/collections/accesorios/products/mochila-uem"
+            "imagem": "img/mochila.webp"
         },
         {
             "nombre": "Taza",
             "precio": 12,
             "marca": "Universidad Europea",
             "categoria": "acessorios",
-            "imagem": "https://tienda.universidadeuropea.com/collections/accesorios/products/taza"
+            "imagem": "img/taza.webp"
         }
     ]
    
