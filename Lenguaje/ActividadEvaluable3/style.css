@@ -2,6 +2,11 @@
 #filtro-form {
     margin-bottom: 20px;
 }
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
 .producto {
     border: 1px solid #ccc;
     padding: 10px;
@@ -10,21 +15,22 @@
 .central{
     width: 100vw;
     height: 100vh;
-    background: #c81010;        
+    background: #9b6565;        
     display: flex;
     justify-content: center ;
     align-items: center;
 }
 .izquierda{
-    width: 50vw;
+    width: 70vw;
     height: 100vh;
     display: flex;
+    background: #e43e06;
     justify-content: center ;
     align-items: center;
     flex-direction: column;
 }
 .derecha{
-    width: 50vw;
+    width: 30vw;
     height: 100vh;
     display: flex;
     justify-content: center ;
@@ -42,3 +48,15 @@
     border-radius: 20px; /*Tirar as quinas do card login, deixar mais novo*/
     box-shadow: 0px 10px 40px #00000056;
 }
+.izquierda > h2 {
+    font-size: 3vw;
+    color: #eebb92;
+    position: absolute;
+    margin-top: 20px; /* Distância do texto até a borda superior da página */
+    margin-left: 50px; /* Distância do texto até a borda esquerda da página */
+    width: 450px; /* largura da div */
+    height: 200px; /* altura da div */
+    border: 1px solid black; /* apenas para visualização */
+    margin-top: 5px; /* altura da navbar */
+}
+
