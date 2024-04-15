@@ -59,9 +59,11 @@ body {
     text-align: center;
     box-sizing: border-box;
     background-color: #81673d;
+    display: flex;
 }
 .card img {
     max-width: 100%;
+    display: inline-block;
 }
 .card h3 {
     margin-top: 8px;
