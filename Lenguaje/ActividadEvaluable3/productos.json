@@ -1,5 +1,4 @@
-{
-    "productos": [
+[
         {
             "nombre": "Sudadera",
             "precio": 25,
@@ -63,7 +62,5 @@
             "categoria": "acessorios",
             "imagem": "img/taza.webp"
         }
-    ]
-   
-}
+]
     

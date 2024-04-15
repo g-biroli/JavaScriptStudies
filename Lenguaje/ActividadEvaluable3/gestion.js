@@ -4,7 +4,7 @@ function cargar() {
         .then(productos => {
             const container = document.querySelector("#productos-container");
 
-            productos.forEach(producto => {
+            productos.map(producto => {
                 const card = document.createElement("div");
                 card.classList.add("card");
 
