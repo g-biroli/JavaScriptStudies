@@ -16,18 +16,23 @@ body {
     width: 100vw;
     height: 100vh;
     background: #f0e6ad;        
-    display: flex;
+    
     justify-content: center ;
     align-items: center;
 }
 .izquierda{
     width: 70vw;
     height: 100vh;
-    display: flex;
+    display: inline-block;
     background: #e53e06;
     justify-content: center ;
     align-items: center;
     flex-direction: column;
+}
+.izquierda h2{
+    margin-top: 10px;
+    font-size: px;
+    color: rgb(241, 215, 165);
 }
 .derecha{
     width: 30vw;
@@ -39,7 +44,7 @@ body {
 }
 
 
-#filtro-form {
+.card-filtro {
     width: 60%; 
     display: flex;
     justify-content: center ;
@@ -48,25 +53,42 @@ body {
     padding: 30px 35px;
     background: #e53e06;
     border-radius: 20px; 
-    box-shadow: 0px 10px 40px #00000056;
+    box-shadow: 0px 10px 40px #00000056
+}
+.card-cadastro > h1{
+    margin-top: 8px;
+    font-size: 25px;
+    color: rgb(241, 215, 165);
 }
 
 .card {
-
     border-radius: 8px;
-    padding: 16px;
+    padding: 10px;
+    padding-right: 7px;
     width: 200px;
     text-align: center;
     box-sizing: border-box;
-    background-color: #81673d;
-    display: flex;
+    background-color: #524e47;
+    display: inline-block;
 }
 .card img {
     max-width: 100%;
-    display: inline-block;
+    height: auto;
+    margin-right: 10px;
+    
 }
 .card h3 {
     margin-top: 8px;
     font-size: medium;
+    color: rgb(241, 215, 165);
+}
+.card h4{
+    margin-top: 8px;
+    font-size: medium;
+    color: rgb(241, 215, 165);
+}
+.card-filtro h1 {
+    margin-top: 10px;
+    font-size: px;
     color: rgb(241, 215, 165);
 }
