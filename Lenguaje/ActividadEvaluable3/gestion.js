@@ -34,7 +34,7 @@ function cargar() {
         const filtroPrecio = document.getElementById('filtro-precio').value;
         const filtroMarca = document.getElementById('filtro-marca').value.toLowerCase();
     
-        fetch('datos.json')
+        fetch('productos.json')
             .then(response => response.json())
             .then(data => {
                 const lista = document.getElementById('lista');
