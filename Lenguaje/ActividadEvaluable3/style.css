@@ -1,7 +1,4 @@
 
-#filtro-form {
-    margin-bottom: 20px;
-}
 
 body {
     margin: 0;
@@ -91,4 +88,9 @@ body {
     margin-top: 10px;
     font-size: px;
     color: rgb(241, 215, 165);
+}
+#formulario-filtro {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
