@@ -40,6 +40,9 @@
     border-radius: 20px; /*Tirar as quinas do card login, deixar mais novo*/
     box-shadow: 0px 10px 40px #00000056;
 }
+.card-login > h1 {
+    color: #ac97a3;
+}
 .textfield {
     width: 100%;
     display: flex;
@@ -75,5 +78,5 @@
     color: #2b134b;
     background: #bb6a98;
     cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #00ff8052;
+    box-shadow: 0px 10px 40px -12px #3f054152;
 }
