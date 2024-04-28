@@ -1,8 +1,20 @@
 /*
 
 display: flex altera a quebra da div -> para Flexbox alinhando e distribuindo o espaco entre os itens de um container
+
 justify-content: center / align-itens: center -> são usados para alinhar os itens horizontal e vertical ao centro
+
 text-align: center -> garante que o texto dentro da div esteja centralizado horizontalmente
+
+-----------------------------------------------
+
+Medida em PX / VW
+-> Medidas em px são fixadas sem variar com o tamanho da tela e variações. Sempre terá o mesmo tamanho predeterminado.
+
+-> Já a medida VW é uma medida que varia conforme com o viewport. Sendo 1vw -> 1% da largura do viewport. É usado para layouts responsivos e fluidos 
+Ela permite que elementos se ajustem automaticamente para que caberem em diferentes tamanhos de tela.
+
+-----------------------------------------------
 
 Padroes para usar para editar uma div
 
