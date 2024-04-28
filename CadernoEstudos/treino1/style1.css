@@ -14,11 +14,13 @@ body {
 }
 .Esquerda{
     width: 50vw;
-    height: 100vh;
+    height: 100px;
     display: flex;
     justify-content: center ;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+   
 }
 .Esquerda > h1 {
     color: #bb6a98 ;
