@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact-form.css">
+    <title>Formulario</title>
+</head>
+</html>
+<body>	
+    <!-- formulario de contacto en html y css -->  
+      <div class="contact_form">
+          <div class="formulario">			
+        <h1>Formulario de contacto</h1>
+                  <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+                      <form action="form.php" method="post">				
+  
+                                <div class="textfield" id="Nombre">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" name="nombre" placeholder="Escribe tu nombre" >
+                                </div>
+                                <div class="textfield" id="Email">
+                                    <label for="email">Email</label>
+                                    <input type="text" name="email" placeholder="Escribe tu email" >
+                                </div>
+                                <div class="textfield" id="Telefono">
+                                    <label for="telefono">Telefono</label>
+                                    <input type="number" name="telefono" placeholder="Escribe tu telefono" >
+                                </div>
+                                <div class="textfield" id="SitioWeb">
+                                    <label for="sitioweb">Sitio Web</label>
+                                    <input type="text" name="sitioWeb" placeholder="Escribe la URL de tu web" >
+                                </div>
+                                <div class="textfield" id="Asunto">
+                                    <label for="asunto">Asunto</label>
+                                    <input type="text" name="asunto" placeholder="Escribe un asunto" >
+                                </div>
+                                <div class="textfield" id="Mensaje">
+                                    <label for="mensaje">Mensaje</label>
+                                    <input type="text" name="mensaje" placeholder="Deja aquí tu comentario..." >
+                                </div>
+                                  <p>
+                                      <label for="nombre" class="colocar_nombre">
+                                          <span class="obligatorio">*</span>
+                                      </label>
+                                          
+                                  </p>
+                              
+                                  <p>
+                                      <label for="email" class="colocar_email">
+                                          <span class="obligatorio">*</span>
+                                      </label>
+                                          
+                                  </p>
+                          
+                                  <p>
+                                      <label for="telefone" class="colocar_telefono">
+                                      </label>
+                                          
+                                  </p>		
+                              
+                                  <p>
+                                      <label for="website" class="colocar_website">
+                                      </label>
+                                          
+                                  </p>		
+                              
+                                  <p>
+                                      <label for="asunto" class="colocar_asunto">
+                                          <span class="obligatorio">*</span>
+                                      </label>
+                                          
+                                  </p>		
+                              
+                                  <p>
+                                      <label for="mensaje" class="colocar_mensaje">
+                                          <span class="obligatorio">*</span>
+                                      </label>                     
+                                           
+                                     </p>	  								
+                              
+                                  <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+  
+                                  <p class="aviso">
+                                      <span class="obligatorio"> * </span>los campos son obligatorios.
+                                  </p>					
+                          
+                      </form>
+          </div>	
+      </div>
+  </body>
