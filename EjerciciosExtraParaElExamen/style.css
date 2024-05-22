@@ -1,0 +1,14 @@
+.container-fluid{
+    background-color: rgb(26, 25, 24);
+    position: fixed;
+}
+.container-fluid > a {
+    color: antiquewhite;
+    background-color: rgb(26, 25, 24);
+}
+.Central {
+    display: flex;
+    justify-content: space-between; /* Alinha horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    height: 100vh; /* Altura total da viewport */
+  }
