@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<familia>
+    <familiaParte id="1"> 
+    <nombre> Luis Alberto </nombre>
+    <genero>Masculino</genero>
+    <edad> 47 </edad>
+    </familiaParte>
+
+    <familiaParte id="2">
+    <nombre> Lola </nombre>
+    <genero>Feminino</genero>
+    <edad> 23 </edad>
+    </familiaParte>   
+
+    <familiaParte id="3">
+        <nombre> Tereza </nombre>
+        <genero>Feminino</genero>
+        <edad> 25 </edad>
+        </familiaParte>
+
+        <familiaParte id="4">
+            <nombre> Nicolas </nombre>
+            <genero>Masculino</genero>
+            <edad> 30 </edad>
+            </familiaParte>
+
+            <familiaParte id="5">
+                <nombre> Lionel Messi </nombre>
+                <genero>Masculino</genero>
+                <edad> 37 </edad>
+                </familiaParte>
+</familia>
