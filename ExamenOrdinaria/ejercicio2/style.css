@@ -1,0 +1,42 @@
+#REDES{
+    background-color: green;
+    align-items: center;
+}
+#REDES > h5 {
+    text-align: center;
+}
+#LM{
+    background-color: red;
+    align-items: center;
+}
+#LM > h5{
+    text-align: center;
+}
+#ISO{
+    background-color: orange;
+    align-items: center;
+}
+#ISO > h5 {
+    text-align: center;
+}
+#BBDD{
+    background-color: blue;
+    align-items: center;
+}
+#BBDD > h5 {
+    text-align: center;
+}
+#HW{
+    background-color: purple;
+    align-items: center;
+}
+#HW > h5 {
+    text-align: center;
+}
+#FOL{
+    background-color: yellow;
+    align-items: center;
+}
+#FOL > h5 {
+    text-align: center;
+}
